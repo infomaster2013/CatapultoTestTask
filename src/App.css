@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+.testTask{
+  display: flex;
+  flex-direction: row;
+}
+.productTable{
+  border: 1px solid grey;
+  border-collapse: collapse;
+  text-align: right;
+  font-size: 12px;
+}
+.productTable__thead{
+  background-color: lightgrey;
+
+}
+.productTable__tr{
+  padding-right: 5px;
+  border: 1px solid grey;
+  height: 30px;
+}
+
+.productTable__cell{
+  border: 1px solid grey;
+  padding-right: 5px;
+  height: 100px;
+}
+.aside {
+  display: flex;
+  flex-direction: column;
+}
